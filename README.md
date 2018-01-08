@@ -4,7 +4,10 @@ App to demonstrate angular 2 app with MEAN stack using the Angular CLI.
 
 Doing server side authetication using okta open id connect.
 
+It will do CRUD operattions for posts. Please check mongoose schema file.
+
 #MEAN Stack Prerequisites
+
 MongoDB: https://docs.mongodb.com/manual/introduction/
 
 Express.js: http://expressjs.com/
