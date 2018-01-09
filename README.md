@@ -1,14 +1,11 @@
 # MeanApp
-App to demonstrate angular 2 app with MEAN stack using the Angular CLI. Doing server side authetication using okta open id connect.It will do CRUD operattions for posts. Please check mongoose schema file.
+App to demonstrate angular 2 app with MEAN stack using the Angular CLI. Doing server side authetication using okta open id connect.It will do CRUD operations for posts. Please check mongoose schema file.
 
 #MEAN Stack Prerequisites
 
 MongoDB: https://docs.mongodb.com/manual/introduction/
-
 Express.js: http://expressjs.com/
-
 Angular 2: http://angular.io
-
 Node.js: https://nodejs.org 
 
 ## Set up.
@@ -27,11 +24,11 @@ $ cd okta-ng2-mean-stack
 
 This package makes it easy to get your users logged in with Okta using OpenId Connect (OIDC).  It enables your Express application to participate in the [authorization code flow][auth-code-docs] flow by redirecting the user to Okta for authentication and handling the callback from Okta.  Once this flow is complete, a local session is created and the user context is saved for the duration of the session.
 
-You will need an Okta Developer Org, you can sign up for an account at Markup :  [Named Link](https://developer.okta.com/signup/..)
+You will need an Okta Developer Org, you can sign up for an account at Markup :  [Developer Link](https://developer.okta.com/signup/..)
 
 ### new ExpressOIDC(config)
 
-Go to server.js in root directory and chnge with your app configurations.
+Go to server.js in root directory and change with your app configurations.
 To configure your OIDC integration, create an instance of `ExpressOIDC` and pass options. Most apps will need this basic configuration:
 
 ```javascript
