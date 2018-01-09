@@ -4,8 +4,11 @@ App to demonstrate angular 2 app with MEAN stack using the Angular CLI. Doing se
 #MEAN Stack Prerequisites
 
 MongoDB: https://docs.mongodb.com/manual/introduction/
+
 Express.js: http://expressjs.com/
+
 Angular 2: http://angular.io
+
 Node.js: https://nodejs.org 
 
 ## Set up.
